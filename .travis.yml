@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t chudiapp/docker-react -f Dockerfile.dev .
+  - docker build -t chudi/docker-react -f Dockerfile.dev .
 
 
 script:
